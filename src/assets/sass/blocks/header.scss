@@ -1,0 +1,44 @@
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+
+  padding: 22px 0 20px;
+
+  background-color: $black;
+
+
+  @media (max-width: 540px) {
+    padding: 10px 0 10px;
+  }
+
+  @media (max-height: 400px) {
+    padding: 10px 0 10px;
+  }
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.header__box {
+  display: none;
+
+  @media (max-width: 950px) {
+    display: block;
+    min-width: 26px;
+    min-height: 26px;
+  }
+
+  @media (max-width: 320px) {
+    display: flex;
+    align-items: center;
+    min-width: 107px;
+    min-height: 38px;
+  }
+}

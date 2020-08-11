@@ -1,0 +1,47 @@
+.clients-logos {
+	padding: 50px 0;
+	background-color: $white;
+}
+
+.clients-logos__inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.clients-logos__item {
+	@media (max-width: 767px) {
+		&:last-child {
+			display: none;
+		}
+	}
+
+	@media (max-width: 630px) {
+		&:first-child {
+			display: none;
+		}
+	}
+
+	@media (max-width: 500px) {
+		&:nth-child(5) {
+			display: none;
+		}
+	}
+
+	@media (max-width: 400px) {
+		&:nth-child(2) {
+			display: none;
+		}
+	}
+}
+
+.clients-logos__item:hover .clients-logos__img {
+	opacity: 0.5;
+}
+
+.clients-logos__img {
+	width: 100%;
+	height: 100%;
+
+	transition: opacity .3s linear;
+}

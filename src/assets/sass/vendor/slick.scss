@@ -1,0 +1,186 @@
+.intro .slick-slide {
+  outline: none;
+}
+
+.intro .slick-dots {
+  position: absolute;
+  bottom: 42px;
+  left: 50%;
+
+  display: flex;
+  align-items: center;
+
+  transform: translateX(-50%);
+
+  & li {
+    margin-right: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &.slick-active button {
+      background-color: $light-brown;
+    }
+  }
+
+  & button {
+    width: 15px;
+    height: 15px;
+
+    font-size: 0;
+
+    background-color: transparent;
+    border: 2px solid $light-brown;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+
+    transition: background-color 0.2s linear;
+  }
+}
+
+
+
+
+/* TeamSlider styles */
+.team__persons .slick-track {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.team__persons .slick-slide {
+  outline: none;
+}
+
+.team__persons .slick-dots {
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+
+  display: flex;
+  align-items: center;
+
+  transform: translateX(-50%);
+
+  & li {
+    margin-right: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &.slick-active button {
+      background-color: $light-brown;
+    }
+  }
+
+  & button {
+    width: 15px;
+    height: 15px;
+
+    font-size: 0;
+
+    background-color: transparent;
+    border: 2px solid $light-brown;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+
+    transition: background-color 0.2s linear;
+  }
+}
+
+
+
+/* clientsSlider styles */
+.clients__slider .slick-slide {
+  outline: none;
+}
+
+.clients__slider .slick-dots {
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+
+  display: flex;
+  align-items: center;
+
+  transform: translateX(-50%);
+
+  & li {
+    margin-right: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &.slick-active button {
+      background-color: $light-brown;
+    }
+  }
+
+  & button {
+    width: 15px;
+    height: 15px;
+
+    font-size: 0;
+
+    background-color: transparent;
+    border: 2px solid $light-brown;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+
+    transition: background-color 0.2s linear;
+  }
+}
+
+
+
+/* PremiumSlider styles */
+.premium__inner .slick-slide {
+  display: flex;
+}
+
+.premium__inner .slick-slide {
+  outline: none;
+}
+
+.premium__inner .slick-dots {
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+
+  display: flex;
+  align-items: center;
+
+  transform: translateX(-50%);
+
+  & li {
+    margin-right: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &.slick-active button {
+      background-color: $light-brown;
+    }
+  }
+
+  & button {
+    width: 15px;
+    height: 15px;
+
+    font-size: 0;
+
+    background-color: transparent;
+    border: 2px solid $light-brown;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+
+    transition: background-color 0.2s linear;
+  }
+}

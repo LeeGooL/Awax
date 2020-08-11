@@ -1,0 +1,63 @@
+.contact__subtitle {
+	@media (max-width: 425px) {
+		max-width: 90%;
+		margin: 0 auto 67px;
+	}
+}
+
+.contact__form {
+	max-width: 540px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	@media (max-width: 540px) {
+		max-width: 80%;
+	}
+
+	@media (max-width: 425px) {
+		max-width: 90%;
+	}
+}
+
+.contact__form-header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 46px;
+
+	@media (max-width: 540px) {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+
+.contact__form-name,
+.contact__form-email {
+	max-width: 255px;
+	width: 100%;
+
+	@media (max-width: 540px) {
+		max-width: 100%;
+	}
+}
+
+.contact__form-name {
+	margin-right: 30px;
+
+	@media (max-width: 540px) {
+		margin-bottom: 45px;
+	}
+}
+
+.contact__form-subject {
+	margin-bottom: 88px;
+
+	@media (max-width: 425px) {
+		margin-bottom: 45px;
+	}
+}
+
+.contact__form-message {
+	margin-bottom: 52px;
+}
